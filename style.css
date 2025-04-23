@@ -32,11 +32,31 @@ header nav ul li a {
 
 
 .contato {
-
+    font-style: oblique;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 146, 47);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 100px 180px;
 }
 .formulario {
 
 }
 .campos-formulario {
-    
+
+}
+.mapa {
+    font-style: oblique;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 146, 47);
+    width: 560px;
+    padding: 50px;
+    border: 1px solid rgb(224, 146, 47);
+    border-radius: 20px;
+}
+.mapa-contato {
+    width: 560px;
+    height: 500px;
 }
