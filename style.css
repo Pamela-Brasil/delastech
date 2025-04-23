@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: max-content;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+header nav ul li a {
+    color: rgb(224, 146, 47);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.players {
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-evenly;
+}
+#video {
+    width: 540px;
+    height: 315px;
+}
+
+
+.contato {
+
+}
+.formulario {
+
+}
+.campos-formulario {
+    
+}
