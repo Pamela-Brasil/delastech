@@ -14,30 +14,31 @@ main {
 }
 header {
     background-color: #5e0219;
-    height: 400px;
-    display: flex;
-    align-items: normal;
-    justify-content: space-evenly;
+    height: 500px;
     padding: 20px; 
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
 }
 #logo{
-    margin-top: 30px;
-    padding: 20px;
+    padding: 40px;
     height: 280px;
 }
 header nav ul {
     display: flex;
-    justify-content: right;
-    align-items: first baseline;
+    align-items: center;
     list-style: none;
 }
 header nav ul li a {
-    color: #e6cfcf;
-    font-family: sans-serif;
+    color: #7d9d87;
+    font-family: serif;
     font-style: italic;
+    font-weight: bold;
     text-decoration: none;
+    text-align: justify;
     padding: 15px;
-    font-size: 22px;
+    font-size: 26px;
 }
 body main section div h1 {
     padding: 20px 80px 20px 80px;
@@ -50,9 +51,10 @@ body main section div h1 {
 #slogan {   
     padding: 100px;
     width: 1600px;
+    margin-top: 150px;
     margin-bottom: 200px;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly
 }
 .titulos {
     margin: 200px 0px 80px 0px;
@@ -61,7 +63,7 @@ body main section div h1 {
     font-style: italic;
     font-size: 70px;
     text-align:center;
-    color: #c48b47;
+    color: #5e0219;
 }
 .caixa-texto{
     background-color: #c48b47;
@@ -74,9 +76,10 @@ body main section div h1 {
 #texto {
     padding: 20px 120px 20px 120px;
     text-align: justify;
-    font-family: serif;
-    font-size: 26px; 
-    line-height: 1.6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: 30px; 
+    line-height: 1.5;
     color: #f7e5ea;
 }
 .players {
@@ -152,8 +155,9 @@ body main section div h1 {
 }
 footer {
     background-color:  #5e0219;
-    color: #e6cfcf;
-    font-family: ;
+    font-family: serif;
+    font-style: italic;
+    color: #c48b47;
     padding: 50px;
     margin-top: 20px;
     align-items: center;
