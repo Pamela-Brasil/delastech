@@ -171,3 +171,11 @@ footer {
 .contato-footer {
     text-align: center;
 }
+.duascolunas {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+.duascolunas > div {
+    width: 50%;
+}
