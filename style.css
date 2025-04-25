@@ -48,7 +48,7 @@ body main section div h1 {
     text-align:center;
     color: #e6cfcf;
 }
-#slogan {   
+#frase {   
     padding: 100px;
     width: 180vh;
     margin-top: 100px;
@@ -88,13 +88,13 @@ body main section div h1 {
     justify-content:space-between;
 }
 #video {
-width: 71vh;
+    width: 71vh;
     height: 40vh;
 }
 .contato {
     padding: 100px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 .area-formulario {
     padding: 60px;
@@ -189,20 +189,17 @@ footer {
     text-align:center;
     color: #5e0219;
 }
-
 .servicos p {
     font-size: 50px;
     line-height: 1.6;
     margin-bottom: 50px;
     text-align: center;
 }
-
 .cards-servicos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
-
 .card {
     background-color: white;
     padding: 20px;
@@ -210,17 +207,14 @@ footer {
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
 }
-
 .card:hover {
     transform: translateY(-5px);
 }
-
 .card h2 {
     font-size: 25px;
     color: #5e0219;
     margin-bottom: 10px;
 }
-
 .card p {
     font-size: 20px;
 }
@@ -228,6 +222,4 @@ footer {
     font-size: 100px;
     color: #5e0219;
     text-align: center;
-    
-
 }
