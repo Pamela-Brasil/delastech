@@ -171,14 +171,14 @@ footer {
 .contato-footer {
     text-align: center;
 }
-.duascolunas {
+/*.duascolunas {
     display:flex;
     flex-direction: row;
     width: 100%;
 }
 .duascolunas > div {
-    width: 50%;
-}
+    width: 33,33%;
+} */
 .servicos h1 {
     font-size: 70px;
     margin-bottom: 10px;
@@ -222,4 +222,11 @@ footer {
 
 .card p {
     font-size: 20px;
+}
+.slogan {
+    font-size: 100px;
+    color: #5e0219;
+    text-align: center;
+    
+
 }
