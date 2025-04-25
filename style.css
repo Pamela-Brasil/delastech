@@ -50,11 +50,11 @@ body main section div h1 {
 }
 #slogan {   
     padding: 100px;
-    width: 1200px;
+    width: 180vh;
     margin-top: 100px;
     margin-bottom: 150px;
     display: flex;
-    justify-content:space-evenly
+    justify-content: center;
 }
 .titulos {
     margin: 200px 0px 80px 0px;
@@ -88,8 +88,8 @@ body main section div h1 {
     justify-content:space-between;
 }
 #video {
-    width: 540px;
-    height: 315px;
+width: 71vh;
+    height: 40vh;
 }
 .contato {
     padding: 100px;
